@@ -1,0 +1,133 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<cenario>
+	<boneco id="01">
+		<cor>azul</cor>
+		<posicaoX>25</posicaoX>
+		<posicaoY>25</posicaoY>
+	</boneco>
+	<arvore id="01"> 
+		<cor>Verde</cor>
+		<posicaoX>100</posicaoX>
+		<posicaoY>100</posicaoY>
+	</arvore>
+	<arvore id="02"> 
+		<cor>Verde</cor>
+		<posicaoX>100</posicaoX>
+		<posicaoY>400</posicaoY>
+	</arvore>
+	<arvore id="03"> 
+		<cor>Verde</cor>
+		<posicaoX>200</posicaoX>
+		<posicaoY>100</posicaoY>
+	</arvore>
+	<arvore id="04"> 
+		<cor>Verde</cor>
+		<posicaoX>200</posicaoX>
+		<posicaoY>150</posicaoY>
+	</arvore>
+	<arvore id="05"> 
+		<cor>Verde</cor>
+		<posicaoX>200</posicaoX>
+		<posicaoY>400</posicaoY>
+	</arvore>
+	<arvore id="06"> 
+		<cor>Verde</cor>
+		<posicaoX>250</posicaoX>
+		<posicaoY>200</posicaoY>
+	</arvore>
+	<arvore id="07"> 
+		<cor>Verde</cor>
+		<posicaoX>250</posicaoX>
+		<posicaoY>250</posicaoY>
+	</arvore>
+	<arvore id="08"> 
+		<cor>Verde</cor>
+		<posicaoX>250</posicaoX>
+		<posicaoY>450</posicaoY>
+	</arvore>
+	<arvore id="09"> 
+		<cor>Verde</cor>
+		<posicaoX>300</posicaoX>
+		<posicaoY>100</posicaoY>
+	</arvore>
+	<arvore id="10"> 
+		<cor>Verde</cor>
+		<posicaoX>300</posicaoX>
+		<posicaoY>400</posicaoY>
+	</arvore>
+	<arvore id="11"> 
+		<cor>Verde</cor>
+		<posicaoX>350</posicaoX>
+		<posicaoY>450</posicaoY>
+	</arvore>
+	<arvore id="12"> 
+		<cor>Verde</cor>
+		<posicaoX>400</posicaoX>
+		<posicaoY>200</posicaoY>
+	</arvore>
+	<arvore id="13"> 
+		<cor>Verde</cor>
+		<posicaoX>450</posicaoX>
+		<posicaoY>100</posicaoY>
+	</arvore>
+	<arvore id="14"> 
+		<cor>Verde</cor>
+		<posicaoX>450</posicaoX>
+		<posicaoY>150</posicaoY>
+	</arvore>
+	<arvore id="14"> 
+		<cor>Verde</cor>
+		<posicaoX>450</posicaoX>
+		<posicaoY>250</posicaoY>
+	</arvore>
+	<arvore id="15"> 
+		<cor>Verde</cor>
+		<posicaoX>500</posicaoX>
+		<posicaoY>450</posicaoY>
+	</arvore>
+	<arvore id="16"> 
+		<cor>Verde</cor>
+		<posicaoX>550</posicaoX>
+		<posicaoY>200</posicaoY>
+	</arvore>
+	<arvore id="16"> 
+		<cor>Verde</cor>
+		<posicaoX>550</posicaoX>
+		<posicaoY>250</posicaoY>
+	</arvore>
+	<arvore id="17"> 
+		<cor>Verde</cor>
+		<posicaoX>600</posicaoX>
+		<posicaoY>100</posicaoY>
+	</arvore>
+	<arvore id="18"> 
+		<cor>Verde</cor>
+		<posicaoX>600</posicaoX>
+		<posicaoY>400</posicaoY>
+	</arvore>
+	<arvore id="19"> 
+		<cor>Verde</cor>
+		<posicaoX>650</posicaoX>
+		<posicaoY>450</posicaoY>
+	</arvore>
+	<arvore id="20"> 
+		<cor>Verde</cor>
+		<posicaoX>750</posicaoX>
+		<posicaoY>450</posicaoY>
+	</arvore>
+	<casa id="01">
+		<cor>roxa</cor>
+		<posicaoX>50</posicaoX>
+		<posicaoY>200</posicaoY>
+	</casa>
+	<casa id="02">
+		<cor>roxa</cor>
+		<posicaoX>550</posicaoX>
+		<posicaoY>100</posicaoY>
+	</casa>
+	<igreja id="01">
+		<cor>roxa</cor>
+		<posicaoX>10</posicaoX>
+		<posicaoY>100</posicaoY>
+	</igreja>
+</cenario>
