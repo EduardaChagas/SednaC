@@ -86,7 +86,7 @@ char* DbSedna::consultaPosicao(struct SednaConnection *conn,char* elemento,char*
     size_t bytes_read;
     char buf[1024];
     int res,final;
-    const char* query ="for $e in doc(\"cenario.xml\")/*/*";
+    char* query ="for $e in doc(\"cenario.xml\")/*/*";
     query = strcat(query,elemento);
     query = strcat(query,"\n");
     query = strcat(query,"where $e/@id=\'");
@@ -103,17 +103,15 @@ char* DbSedna::consultaPosicao(struct SednaConnection *conn,char* elemento,char*
         printf("Query failed: \n%s\n", SEgetLastErrorMsg(conn));
         //closing session
         SEclose(conn);
-        return -1;
     }    
     do
     {
-        bytes_read = SEgetData(&conn, buf, 1024 - 1);
+        bytes_read = SEgetData(conn, buf, 1024 - 1);
         if(bytes_read == SEDNA_ERROR)
         {
-            printf("Failed to get result data from server: \n%s\n", SEgetLastErrorMsg(&conn));
+            printf("Failed to get result data from server: \n%s\n", SEgetLastErrorMsg(conn));
             //closing session
-            SEclose(&conn);
-            return -1;
+            SEclose(conn);
         }
         buf[bytes_read] = '\0';
     }while(bytes_read > 0);
@@ -125,7 +123,7 @@ char* DbSedna::consultaCor(struct SednaConnection *conn,char* elemento,char* id)
     size_t bytes_read;
     char buf[1024];
     int res,final;
-    const char* query ="for $e in doc(\"cenario.xml\")/*/*";
+    char* query ="for $e in doc(\"cenario.xml\")/*/*";
     query = strcat(query,elemento);
     query = strcat(query,"\n");
     query = strcat(query,"where $e/@id=\'");
@@ -138,17 +136,15 @@ char* DbSedna::consultaCor(struct SednaConnection *conn,char* elemento,char* id)
         printf("Query failed: \n%s\n", SEgetLastErrorMsg(conn));
         //closing session
         SEclose(conn);
-        return -1;
     }    
     do
     {
-        bytes_read = SEgetData(&conn, buf, 1024 - 1);
+        bytes_read = SEgetData(conn, buf, 1024 - 1);
         if(bytes_read == SEDNA_ERROR)
         {
-            printf("Failed to get result data from server: \n%s\n", SEgetLastErrorMsg(&conn));
+            printf("Failed to get result data from server: \n%s\n", SEgetLastErrorMsg(conn));
             //closing session
-            SEclose(&conn);
-            return -1;
+            SEclose(conn);
         }
         buf[bytes_read] = '\0';
     }while(bytes_read > 0);
